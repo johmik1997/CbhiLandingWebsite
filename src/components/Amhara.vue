@@ -27,12 +27,8 @@
       </div>
 
       <!-- Buttons -->
-      <div class="flex gap-10">
-        <button class="bg-[#0078C9] text-white md:text-2xl px-8 md:px-12 py-2 rounded-md font-semibold shadow hover:bg-white hover:text-[#0078C9]">
-  SHI
-</button>
-
-        <button class="border-2 border-blue-900 md:text-2xl md:px-12 text-[#0078C9] bg-white px-8 py-2 rounded-md font-semibold shadow hover:bg-[#0078C9] hover:text-white">
+    <div class="item-center">
+        <button class="border-2 border-[#0078C9] md:text-2xl md:px-12 text-white bg-blue-400 px-8 py-2 rounded-md font-semibold shadow hover:bg-white hover:text-[#0078C9]">
           CBHI
         </button>
       </div>
@@ -41,9 +37,9 @@
 </template>
 
 <script>
-import bgImage from '../assets/images/hararbg.jpg'
+import bgImage from '/amhara.jpg'
 import logo1 from "../assets/images/logo2.jpg"
-import logo2 from "../assets/images/hararlogo.jpg"
+import logo2 from "/logoamhara.jpg"
 
 export default {
   name: 'Amhara',
