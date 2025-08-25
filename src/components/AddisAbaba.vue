@@ -33,7 +33,7 @@
           SHI
         </button>
         <button class="border-2 border-blue-900 md:text-2xl md:px-12 text-[#0078C9] bg-white px-8 py-2 rounded-md font-semibold shadow hover:bg-[#0078C9] hover:text-white">
-          <a href="https://cftest.kenemapharmacy.com/3">
+          <a href="https://cftest.kenemapharmacy.com/">
           CBHI
           </a>
         </button>
