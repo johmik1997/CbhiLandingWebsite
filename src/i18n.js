@@ -32,9 +32,22 @@ export const translations = {
   independence:' — we compare multiple carriers to get the right fit.',
     SeniorLeadership: 'Senior Leadership & Lead Executive Officers',
   MeetOurTeam: 'Meet our dedicated team of professionals',
+  services_intro:" Ethiopian Health Insurance Service provides accessible and affordable healthcare coverage for all citizens through different insurance schemes and support programs.",
+  YearsofService:'Years of Service',
+  ActiveInsurancePolicies:"Active Insurance Policies",
+  HappyClientsNationwide:"Happy Clients Nationwide",
+  OurNationalImpact:'Our National Impact',
+  getintouch:'Get in touch with our team',
+  SendMessage:'Send Message',
+YourMessage:"Your Message",
+PhoneNumber:'Phone Number',
+EmailAddress:'Email Address',
+FullName:'FullName',
+contactmsg:'Speak with an advisor today for a free consultation and tailored quote.',
+Sendusamessage:'Send us a message'
   },
   am: {
-    home: 'መነሻ', features: 'አገልግሎቶች', about: 'ስለ እኛ', testimonials: 'የደንበኞች አስተያየቶች', stats: 'ቁጥሮች', contact: 'እውነታ',
+    home: 'መነሻ', features: 'አገልግሎቶች', about: 'ስለ እኛ', testimonials: 'የደንበኞች አስተያየቶች', stats: 'ቁጥሮች', contact: 'ያግኙን',
     ehis_tagline: 'የጤናዎን ጥበቃ እና የወደፊት ደህንነት፡ እኛ የተደረገው የኢንሹራንስ ማስረጃ ነው።',
     ehis_about: 'በኢትዮጵያ የጤና ቋሚ ጥገና ስለሚፈልጉ የሚያስፈልጋችሁ ድጋፍ ከሆነ በእርግጥ ያግኙን።',
     ehis_address: 'ጎተራ ከፒፒሲ ፋብሪካ ዙሪያ - ወረዳ 7, ኒፋስ ሲልክ ላፍቶ ንዑስ ከተማ, አዲስ አበባ, ኢትዮጵያ',
@@ -44,6 +57,7 @@ export const translations = {
     slide3_title: 'የአካባቢ አገልግሎት ፣ ብሔራዊ ሀብት', slide3_lead: 'የአካባቢ እርምጃ በብሔራዊ ኃይል የተደጋጋሚ።', slide3_body: 'ለዕድል የሚረዱ ባለሙያዎች ከአለም አቀፍ ልምድ ጋር ይሰራሉ።',
     aboutus:'ስለ ኢትዮጵያ የጤና ኢንሹራንስ አገልግሎት ይማሩ',
     whoweare:'እኛ ማን ነን',
+    getintouch:'ከቡድናችን ጋር ይገናኙ',
      YearsofService:'የአገልግሎት ዓመታት',
     HealthFacilities:'የጤና ተቋማት',
     MembersCovered:'የተሸፈኑ አባላት',
@@ -56,6 +70,20 @@ export const translations = {
   independence:'— በተለያዩ አቅራቢዎች መካከል በማነፃፀር ተገቢውን እንመርጣለን።',
     SeniorLeadership: 'ከፍተኛ አመራሮች እና ዋና ኤክስኩቲቭ ኦፊሰሮች',
   MeetOurTeam: 'በተለያዩ ሙያዊ ሰራተኞቻችን የተሰጠውን ቡድን ይገናኙ',
+  services_intro:"የኢትዮጵያ የጤና ኢንሹራንስ አገልግሎት ለሁሉም ዜጎች በተለያዩ የኢንሹራንስ አይነቶችና የድጋፍ ፕሮግራሞች በኩል ተደራሽ እና ቀላል የጤና እንክብካቤ ሽፋን ይሰጣል።",
+  YearsofService: "የአገልግሎት ዓመታት",
+ActiveInsurancePolicies: "ንቁ የኢንሹራንስ ፖሊሲዎች",
+HappyClientsNationwide: "በአገር አቀፍ ደስተኛ ደንበኞች",
+OurNationalImpact: "የእኛ ብሔራዊ ተፅዕኖ",
+SendMessage: "መልእክት ላክ",
+YourMessage: "መልእክትዎ",
+PhoneNumber: "ስልክ ቁጥር",
+EmailAddress: "ኢሜይል አድራሻ",
+FullName: "ሙሉ ስም",
+contactmsg: "ዛሬ ከአማካሪ ጋር ይነጋገሩ፣ ነፃ ምክክር እና ተስማሚ ግምት ይያዙ።",
+Sendusamessage: "መልእክት ይላኩልን"
+
+
 
 
   },

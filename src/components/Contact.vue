@@ -2,16 +2,16 @@
   <section class="contact section-inner" id="contact">
     <div class="section-header">
       <h2>{{ t('contact') }}</h2>
-      <p class="section-subtitle">Get in touch with our team</p>
+      <p class="section-subtitle">{{ t('getintouch')}}</p>
     </div>
     
     <div class="contact-grid">
       <form class="contact-form card-soft" @submit.prevent="onSubmit">
-        <h3>Send us a message</h3>
-        <p class="lead">Speak with an advisor today for a free consultation and tailored quote.</p>
+        <h3>{{ t('Sendusamessage')}}</h3>
+        <p class="lead">{{ t('contactmsg')}}</p>
         
         <div class="form-group">
-          <label for="name">Full Name</label>
+          <label for="name">{{ t('FullName')}}</label>
           <input 
             type="text" 
             id="name" 
@@ -22,7 +22,7 @@
         </div>
         
         <div class="form-group">
-          <label for="email">Email Address</label>
+          <label for="email">{{ t('EmailAddress')}}</label>
           <input 
             type="email" 
             id="email" 
@@ -33,7 +33,7 @@
         </div>
         
         <div class="form-group">
-          <label for="phone">Phone Number</label>
+          <label for="phone">{{ t('PhoneNumber')}}</label>
           <input 
             type="tel" 
             id="phone" 
@@ -43,7 +43,7 @@
         </div>
         
         <div class="form-group">
-          <label for="message">Your Message</label>
+          <label for="message">{{ t('YourMessage')}}</label>
           <textarea 
             id="message" 
             v-model="form.message" 
@@ -54,7 +54,7 @@
         </div>
         
         <button type="submit" class="btn-primary">
-          <span>Send Message</span>
+          <span>{{ t('SendMessage')}}</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
           </svg>

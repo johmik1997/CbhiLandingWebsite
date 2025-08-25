@@ -36,20 +36,22 @@
         </div>
       </div>
 
-      <!-- Quick Links -->
-      <div class="footer-section">
-        <h2>Quick Links</h2>
-        <ul>
-          <li><a href="/en">Home</a></li>
-          <li><a href="/en">Services</a></li>
-          <li><a href="/en">About EHIS</a></li>
-          <li><a href="/en">Contact Us</a></li>
-          <li><a href="/en">FAQs</a></li>
-        </ul>
+   
+<div class="footer-section">
+  <h2>Quick Links</h2>
+  <ul>
+    <li><a href="#home">{{ t('home') }}</a></li>
+    <li><a href="#features">{{ t('features') }}</a></li>
+    <li><a href="#about">{{ t('about') }}</a></li>
+    <li><a href="#counters">{{ t('stats') }}</a></li>
+    <li><a href="#contact">{{ t('contact') }}</a></li>
+  </ul>
+
+
       </div>
 
       <!-- Resources -->
-      <div class="footer-section resources-section">
+      <!-- <div class="footer-section resources-section">
         <h2>Resources</h2>
         <ul>
           <li><a href="/en">Strategic Plan</a></li>
@@ -58,7 +60,7 @@
           <li><a href="/en">Annual Reports</a></li>
           <li><a href="/en">Policy Documents</a></li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- Contact Info -->
       <div class="footer-section contact-section">
@@ -101,6 +103,17 @@
 
 <script setup>
 // No logic needed
+import { lang, setLang, translations } from '../i18n.js'
+const t = (key) => {
+  if (translations[lang.value] && translations[lang.value][key]) {
+    return translations[lang.value][key];
+  } else if (translations.en && translations.en[key]) {
+    return translations.en[key];
+  } else {
+    return key;
+  }
+}
+
 </script>
 
 <style scoped>

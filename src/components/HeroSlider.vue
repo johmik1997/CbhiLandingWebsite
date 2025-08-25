@@ -35,7 +35,7 @@ import { Navigation, Pagination, Autoplay, EffectFade } from 'swiper/modules'
 import { translations, lang } from '../i18n.js'
 
 const slides = [
-  { image: '..' },
+  { image: './homeimage.jpg' },
   { image: './bgslider2.jpg' },
   { image: './bgslider1.jpg'}
 ]
